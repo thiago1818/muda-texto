@@ -1,0 +1,53 @@
+h1#titulo-string {
+    font: bold 1.1em Arial;
+    text-align: center;
+}
+
+h2#subTit-string {
+    font: normal .8em Arial;
+    text-align: center;
+}
+
+#textarea {
+    display: block;
+    font: normal 1em Arial;
+    height: 250px;
+    min-height: 50px;
+    padding: 10px;
+    width: 80vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+button.btn {
+    border: 1px solid var(--azul3);
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    width: 110px;
+    height: 50px;
+    background-color: var(--azul3);
+    font-size: .9em;
+    font-weight: 700;
+    color: white;
+}
+
+button.btn:hover {
+    background-color: #00397ada;
+    transition-duration: .2s;
+}
+
+
+
+@media screen and (max-width: 1150px) {
+
+    #textarea {
+        width: 90%;
+    }
+
+    button.btn {
+        width: 80px;
+        height: 50px;
+    }
+}

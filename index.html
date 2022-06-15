@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/responsive.css">
+    <link rel="stylesheet" href="./style/style-texto.css">
+    <title>Converte Texto</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <img class="logo-img" src="./images/logo1.png" alt="logo">
+        </div>
+
+        <nav id="nav" class="nav-menu">
+            <div class="hamburguer">
+                <div class="lines line-top"></div>
+                <div class="lines line-mid"></div>
+                <div class="lines line-bottom"></div>
+            </div>
+            <ul class="menu">
+                <li class="menu-item"><a class="link-menu-item" href="#">Início</a></li>
+                <li class="menu-item"><a class="link-menu-item" href="#">Converter</a></li>
+                <li class="menu-item"><a class="link-menu-item" href="#">Significado</a></li>
+                <!-- <li class="menu-item"><a class="link-menu-item" href="#">Composta</a></li> -->
+                <li class="menu-item"><a class="link-menu-item" href="#">Contato</a></li>
+                <li class="redeSocial">
+                    <a href=""><img class="icone" src="./images/instagram1.png" alt="Instagram"></a>
+                    <a href=""><img class="icone" src="./images/facebook1.png" alt="Facebook"></a>
+                    <a href=""><img class="icone" src="./images/whatsapp1.png" alt="Whatsapp"></a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <section class="section-string">
+        <h2>Conversão de Texto</h2>
+        <div class="div-string">
+            <div class="grid">
+                <h2 class="subTit-string">Digite ou cole o seu texto abaixo</h2>
+                <textarea id="textarea" placeholder="Digite ou cole o seu texto aqui."
+                    onkeypress="contletra()"></textarea>
+            </div>
+            
+            <div class="grid">
+                <h2 class="subTit-string">Modifique o seu texto clicando nos botões abaixo:</h2>
+                <button id="normal" class="btn" onclick="firstLetterUpper()">Frase</button>
+                <button id="lower" class="btn" onclick="lowercase()">minúsculas</button> <br>
+                <button id="upper" class="btn" onclick="uppercase()">MAIÚSCULAS</button>
+                <button id="capitalize" class="btn" onclick="capitalize()">Capitalizado</button> <br>
+                <button id="inverter" class="btn" onclick="inverter()">Invertido</button> 
+                <button id="alternado" class="btn" onclick="alternado()">AlTeRnAdO</button><br>
+                <button id="copy" class="btn" onclick="copiar()">Copiar</button>
+                <button id="clear" class="btn" onclick="apagar()">Apagar</button>
+            </div>
+        </div>
+
+        <section class="significado">
+            <p id="p-textarea">Uma ferramenta de texto online muito útil onde você pode alternar entre letras
+                minúsculas
+                e maiúsculas, transformar em capitalizado, converter para alternar entre maiúsculas e minúsculas.
+                Explore as opções.
+            </p>
+        </section>
+
+
+
+    </section>
+
+
+    <section>
+    </section>
+
+    <footer>
+        <div class="grid-footer">
+            <div class="titulo-footer">
+                <h3>Converter Texto Online</h3>
+                <h4>WebCode - Sites e Sistemas Web</h4>
+            </div>
+            <nav class="nav-footer">
+                <ul class="menu-footer">
+                    <li class="menu-item"><a class="link-menu-item-footer" href="#">Início</a></li>
+                    <li class="menu-item"><a class="link-menu-item-footer" href="#">Converter</a></li>
+                    <li class="menu-item"><a class="link-menu-item-footer" href="#">Significado</a></li>
+                    <!-- <li class="menu-item"><a class="link-menu-item-footer" href="#">Composta</a></li> -->
+                    <li class="menu-item"><a class="link-menu-item-footer" href="#">Contato</a></li>
+                </ul>
+                <ul class="redeSocial-footer">
+                    <li class="iconeSocial">
+                        <a href=""><img class="iconeSocial-footer" src="./images/instagram1.png" alt="Instagram"></a>
+                        <a href=""><img class="iconeSocial-footer" src="./images/facebook1.png" alt="Facebook"></a>
+                        <a href=""><img class="iconeSocial-footer" src="./images/whatsapp1.png" alt="Whatsapp"></a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="rodape">
+            <p>&copy; WebCode 2022 </p>
+        </div>
+    </footer>
+
+    <script src="./script/script.js"></script>
+    <script src="./script/script-texto.js"></script>
+</body>
+
+</html>
