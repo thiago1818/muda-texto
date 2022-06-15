@@ -145,6 +145,11 @@ h2.subTit-string {
     padding: 20px;
 }
 
+#grid-btn{
+    width: 450px;
+    text-align: center;
+}
+
 
 footer {
     height: 250px;
