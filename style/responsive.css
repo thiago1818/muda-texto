@@ -88,8 +88,18 @@
 
 @media screen and (max-width: 1115px) {
 
-    .div-string{
+    .div-string {
         grid-template: auto auto / auto;
+    }
+
+    #textarea {
+        width: 80vh;
+    }
+
+    button.btn {
+        font-size: .6em;
+        width: 80px;
+        height: 50px;
     }
 
 }
@@ -97,6 +107,10 @@
 @media screen and (max-width: 635px) {
     .grid {
         padding: 30px 30px;
+    }
+
+    #textarea {
+        width: 95%;
     }
 
     footer {

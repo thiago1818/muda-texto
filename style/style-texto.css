@@ -14,7 +14,7 @@ h2#subTit-string {
     height: 250px;
     min-height: 50px;
     padding: 10px;
-    width: 80vh;
+    width: 90vh;
     margin-left: auto;
     margin-right: auto;
 }
@@ -36,18 +36,4 @@ button.btn {
 button.btn:hover {
     background-color: #00397ada;
     transition-duration: .2s;
-}
-
-
-
-@media screen and (max-width: 1150px) {
-
-    #textarea {
-        width: 90%;
-    }
-
-    button.btn {
-        width: 80px;
-        height: 50px;
-    }
 }
